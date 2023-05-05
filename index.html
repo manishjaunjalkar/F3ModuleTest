@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+</head>
+<body>
+    <h1>My Public IP adress : <span id="ip"></span> </h1>
+    <div id="loader"></div>
+    <button id="data-btn" onclick="func1()">Get Data</button>
+
+    <div id="myContainer">
+        <div class="content">
+          <div id="lat">Lat:</div>
+          <div id="city">City:</div>
+          <div id="org">Organization:</div>
+          <div id="long">Long:</div>
+          <div id="region">Region:</div>
+          <div id="hostname">Hostname:</div>
+        </div>
+
+        <iframe id="frame" src="" frameborder="0"></iframe>
+
+        <div class="content2">
+            <div id="time">Time Zone:</div>
+            <div id="date">Date And Time:</div>
+            <div id="pincode">Pincode: </div>
+            <div id="msg">Message:</div>
+        </div>
+
+        <div id="search">
+           
+            <span class="material-symbols-outlined" id="symbol">search</span>
+            <input type="text" placeholder="Search" id="searchforname">
+        </div>
+
+        <div id="postoffice-container"></div>
+        
+    </div>
+
+  
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
